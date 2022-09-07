@@ -10,6 +10,19 @@
     />
     <title>portafolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Roboto:ital,wght@0,900;1,100&display=swap"
+      rel="stylesheet"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -18,15 +31,15 @@
       <a class="link" href="">info@devstudio.com</a>
       <a class="contact" href="">+525555296000</a>
       <nav>
-        <ul id="list1">
-          <li><a class="link" href="index.html">Estudio</a></li>
-          <li><a class="link" href="portafolio.html">Portafolio</a></li>
-          <li><a class="link" href="#">Contactos</a></li>
-        </ul>
+        <div id="list1">
+          <li><a class="estudio" href="index.html">Estudio</a></li>
+          <li><a class="portafolio" href="portafolio.html">Portafolio</a></li>
+          <li><a class="contactos" href="#">Contactos</a></li>
+        </div>
       </nav>
     </header>
-    <main>
-      <div>
+    <main class="mainpt">
+      <div class="boton2">
         <button class="filter" type="button">Todo</button>
         <button class="filter" type="button">Sitios-web</button>
         <button class="filter" type="button">Aplicaciones</button>
@@ -34,60 +47,87 @@
         <button class="filter" type="button">Marketing</button>
       </div>
 
-      <figure>
-        <img
-          src="images/laptob_web.jpg"
-          alt="Laptob navigate with web-site"
-          width="370px"
-        />
-        <figcaption>Tecnoduck</figcaption>
-        <p>Sitio-web</p>
-        <img
-          src="images/basketball.jpg"
-          alt="Mens play basketball"
-          width="370px"
-        />
-        <figcaption>Póster de Nueva Orleans vs Estrella Dorada</figcaption>
-        <img src="images/seafood.jpg" alt="Restaurant logo" width="370px" />
-        <figcaption>Restaurante Seafood</figcaption>
-        <p>Aplicaciones</p>
-        <img
-          src="images/headphones.jpg"
-          alt="Headphones color black"
-          width="370px"
-        />
-        <figcaption>Proyecto Prime</figcaption>
-        <p>Marketing</p>
-        <img src="images/boxes.jpg" alt="Two boxes" width="370px" />
-        <figcaption>Proyecto Cajas</figcaption>
-        <p>Aplicaciones</p>
-        <img src="images/monitor.jpg" alt="Monitor in website" width="370px" />
-        <figcaption>La inspiración no tiene límites</figcaption>
-        <p>Sitio-web</p>
-        <img
-          src="images/book.jpg"
-          alt="Book information random"
-          width="370px"
-        />
-        <figcaption>Edición Limitada</figcaption>
-        <p>Diseño</p>
-        <img src="images/ticket.jpg" alt="Ticket for tag" width="370px" />
-        <figcaption>Proyecto LAB</figcaption>
-        <p>Marketing</p>
-        <img
-          src="images/laptop_grey.jpg"
-          alt="Men with laptob in website"
-          width="370px"
-        />
-        <figcaption>Negocio en Crecimiento</figcaption>
-        <p>Aplicaciones</p>
-      </figure>
+      <div class="imagespt">
+        <div class="pt">
+          <img
+            src="images/laptob_web.jpg"
+            alt="Laptob navigate with web-site"
+            width="370px"
+          />
+          <figcaption>Tecnoduck</figcaption>
+          <p>Sitio-web</p>
+        </div>
+        <div class="pt1">
+          <img
+            src="images/basketball.jpg"
+            alt="Mens play basketball"
+            width="370px"
+          />
+          <figcaption>Póster de Nueva Orleans vs Estrella Dorada</figcaption>
+        </div>
+        <div class="pt2">
+          <img src="images/seafood.jpg" alt="Restaurant logo" width="370px" />
+          <figcaption>Restaurante Seafood</figcaption>
+          <p>Aplicaciones</p>
+        </div>
+      </div>
+
+      <div class="imagespt1">
+        <div class="pt3">
+          <img
+            src="images/headphones.jpg"
+            alt="Headphones color black"
+            width="370px"
+          />
+          <figcaption>Proyecto Prime</figcaption>
+          <p>Marketing</p>
+        </div>
+        <div class="pt4">
+          <img src="images/boxes.jpg" alt="Two boxes" width="370px" />
+          <figcaption>Proyecto Cajas</figcaption>
+          <p>Aplicaciones</p>
+        </div>
+        <div class="pt5">
+          <img
+            src="images/monitor.jpg"
+            alt="Monitor in website"
+            width="370px"
+          />
+          <figcaption>La inspiración no tiene límites</figcaption>
+          <p>Sitio-web</p>
+        </div>
+      </div>
+      <div class="imagespt2">
+        <div class="pt6">
+          <img
+            src="images/book.jpg"
+            alt="Book information random"
+            width="370px"
+          />
+          <figcaption>Edición Limitada</figcaption>
+          <p>Diseño</p>
+        </div>
+        <div class="pt7">
+          <img src="images/ticket.jpg" alt="Ticket for tag" width="370px" />
+          <figcaption>Proyecto LAB</figcaption>
+          <p>Marketing</p>
+        </div>
+        <div class="pt8">
+          <img
+            src="images/laptop_grey.jpg"
+            alt="Men with laptob in website"
+            width="370px"
+          />
+          <figcaption>Negocio en Crecimiento</figcaption>
+          <p>Aplicaciones</p>
+        </div>
+      </div>
     </main>
     <footer>
       <!--Footer de la pagina-->
       <address>
-        <div>
-          <a class="title footer" href="">WebStudio</a>
+        <div class="footerpt">
+          <a class="title-footer" href="">WebStudio</a>
           <p class="direction">
             Calz. Ticomán 500, Ciudad de México, CDMX, México
           </p>

@@ -1,5 +1,6 @@
 .title {
   font-size: 26px;
+  font-family: "Raleway";
   color: #2196f3;
   text-decoration: none;
   position: absolute;
@@ -75,7 +76,7 @@ header {
   left: 1263px;
   top: 32px;
 }
-footer {
+.footerindex {
   position: relative;
   width: 1600px;
   height: 252px;
@@ -84,14 +85,56 @@ footer {
   background: #2f303a;
   color: #ffffff;
 }
+.footerpt {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
+  color: #ffffff;
+}
 .direction {
   text-align: left;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1733px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .email {
   text-align: left;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1782px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .number {
   text-align: left;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1812px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .link {
@@ -137,11 +180,18 @@ footer {
 }
 
 .title-footer {
-  color: #2196f3;
-  text-decoration: none;
-  font-size: 26;
-  line-height: 1, 19;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
 }
 
 section {
@@ -153,7 +203,7 @@ section {
 
   background: #2f303a;
 }
-button {
+.boton {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -209,7 +259,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
 }
-button {
+.boton {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -341,4 +391,115 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.boton2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.imagespt {
+  display: flex;
+  justify-content: space-evenly;
+}
+.imagespt1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.imagespt2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pt {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2 - 400px);
+  top: calc(50% - 404px / 2 - 464px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.pt1 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2);
+  top: calc(50% - 404px / 2 - 464px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.pt2 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2 + 400px);
+  top: calc(50% - 404px / 2 - 464px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.pt3 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2 - 400px);
+  top: calc(50% - 404px / 2 - 30px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.pt4 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2);
+  top: calc(50% - 404px / 2 - 30px);
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.pt5 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2 + 400px);
+  top: calc(50% - 404px / 2 - 30px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.pt6 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2 - 400px);
+  top: calc(50% - 404px / 2 + 404px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.pt7 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2);
+  top: calc(50% - 404px / 2 + 404px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.pt8 {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: calc(50% - 370px / 2 + 400px);
+  top: calc(50% - 404px / 2 + 404px);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.mainpt {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 186px;
 }
