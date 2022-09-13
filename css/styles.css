@@ -275,6 +275,8 @@ h3 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: "Roboto";
+  cursor: pointer;
+  border: none;
 }
 .filter:hover,
 .filter:focus {
@@ -287,6 +289,7 @@ h3 {
   font-size: 16px;
   line-height: 26px;
   cursor: pointer;
+  padding: 5px 10px 0px;
 }
 
 /*img {
@@ -296,6 +299,7 @@ h3 {
 figcaption {
   background-color: #ffffff;
   color: #212121;
+  padding: 20px 78px 0px;
 }
 
 header {
@@ -340,6 +344,8 @@ header {
   height: 648px;
   left: 0px;
   top: 1510px;
+  background:#F5F4FA
+  ;
 }
 
 .total {
@@ -396,7 +402,9 @@ header {
 .boton2 {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-evenly;
+  border: none;
+  padding: 0px 30px 60px ;
 }
 .imagespt {
   display: flex;
@@ -502,4 +510,23 @@ header {
   height: 1360px;
   left: 215px;
   top: 186px;
+}
+
+.team1 >p {
+  padding: 4px 45px 9px;
+  color: #757575;
+}
+.team2 >p {
+  padding: 4px 45px 9px;
+  color: #757575;
+}
+.team3 >p {
+  padding: 4px 90px 9px;
+  color: #757575;
+  letter-spacing: 0.03em;
+}
+.team4 >p {
+  padding: 4px 85px 9px;
+  color: #757575;
+  letter-spacing: 0.03em;
 }
